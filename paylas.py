@@ -1,13 +1,14 @@
 """ShopCepte paylaşımcı: kuyruk/ altındaki paylaşılmamış klasörleri Instagram'a gönderir.
 
 Her klasör:
-  kuyruk/<ad>/paylas.json   {"gonderi": ["gonderi.jpg", ...], "hikayeler": ["hikaye_1.jpg", ...]}
+  kuyruk/<ad>/paylas.json   {"zaman": "2026-11-15T09:23:00Z", "gonderi": ["gonderi.jpg", ...], "hikayeler": ["hikaye_1.jpg", ...]}
+                            zaman (UTC, isteğe bağlı): bu andan önce paylaşılmaz; 6 saatten fazla gecikmişse hiç paylaşılmaz.
   kuyruk/<ad>/aciklama.txt  gönderi açıklaması
   kuyruk/<ad>/*.jpg         görseller (JPEG)
 Paylaşılan klasöre PAYLASILDI.json yazılır; o dosya varsa klasör atlanır.
 Token yalnızca IG_TOKEN ortam değişkeninden okunur, hiçbir yere yazılmaz.
 """
-import json, os, sys, time, urllib.parse, urllib.request, urllib.error
+import calendar, json, os, sys, time, urllib.parse, urllib.request, urllib.error
 from pathlib import Path
 
 API = "https://graph.instagram.com"
@@ -81,6 +82,15 @@ def main():
         if not plan.exists() or done.exists():
             continue
         cfg = json.loads(plan.read_text(encoding="utf-8"))
+        if cfg.get("zaman"):
+            bekle = calendar.timegm(time.strptime(cfg["zaman"], "%Y-%m-%dT%H:%M:%SZ")) - time.time()
+            if bekle > 0:
+                print(f"{folder}: zamanı gelmedi ({int(bekle // 60)} dk)"); continue
+            if bekle < -6 * 3600:
+                print(f"{folder}: 6 saatten fazla gecikmiş, fiyatlar eskimiş olabilir; paylaşılmadı")
+                if not KURU:
+                    done.write_text(json.dumps({"atlandi": "gecikme"}), encoding="utf-8")
+                continue
         cap_file = folder / "aciklama.txt"
         caption = cap_file.read_text(encoding="utf-8").strip() if cap_file.exists() else ""
         eksik = [f for f in cfg.get("gonderi", []) + cfg.get("hikayeler", []) if not (folder / f).exists()]

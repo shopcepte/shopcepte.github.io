@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShopCepte | Bugünün Fırsatları</title>
+<meta name="description" content="ShopCepte'nin Instagram'da paylaştığı Hepsiburada fırsatlarının linkleri.">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:linear-gradient(#ec407a,#c2185b) fixed;color:#1e1b4b;min-height:100vh}
+main{max-width:520px;margin:0 auto;padding:28px 16px 40px}
+h1{margin:0;font-size:34px;color:#fff}h1 span{color:#1e1b4b}
+.sub{color:#ffe4ee;margin:4px 0 20px;font-size:14px}
+h2{color:#fff;font-size:15px;letter-spacing:.08em;text-transform:uppercase;margin:22px 0 10px}
+a.u{display:block;background:#fff;border-radius:18px;padding:14px 16px;margin-bottom:10px;text-decoration:none;color:inherit;box-shadow:0 6px 16px #5a002855}
+a.u b{display:block;font-size:15px;margin-bottom:6px}
+.f{display:flex;align-items:baseline;gap:10px}.e{color:#82828f;text-decoration:line-through;font-size:13px}.y{color:#16a34a;font-weight:700;font-size:20px}.g{margin-left:auto;background:#1e1b4b;color:#fff;border-radius:999px;padding:5px 12px;font-size:12px;font-weight:600}
+footer{color:#ffe4ee;font-size:12px;margin-top:24px;line-height:1.5}
+</style></head><body><main>
+<h1>Shop<span>Cepte</span></h1><div class="sub" id="g">Bugünün fırsatları</div>
+<div id="l"><p style="color:#fff">Yükleniyor…</p></div>
+<footer>Fiyatlar paylaşım anında Hepsiburada'dan alınmıştır; sepette geçerlidir, stok ve süreyle sınırlıdır. Bu sayfadaki bağlantılar iş birliği (komisyon) bağlantısı olabilir.</footer>
+</main><script>
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+fetch('linkler.json?'+Date.now()).then(r=>r.json()).then(d=>{
+ document.getElementById('g').textContent='Son güncelleme: '+(d.guncelleme||'');
+ document.getElementById('l').innerHTML=(d.gruplar||[]).map(g=>'<h2>'+esc(g.baslik)+'</h2>'+(g.urunler||[]).filter(u=>/^https:\/\/www\.hepsiburada\.com\//.test(u.url)).map(u=>
+ '<a class="u" href="'+esc(u.url)+'" rel="noopener"><b>'+esc(u.ad)+'</b><div class="f"><span class="e">'+esc(u.eski)+'</span><span class="y">'+esc(u.yeni)+'</span><span class="g">Ürüne git</span></div></a>').join('')).join('')||'<p style="color:#fff">Bugün için fırsat eklenmedi.</p>';
+}).catch(()=>{document.getElementById('l').innerHTML='<p style="color:#fff">Liste yüklenemedi.</p>'});
+</script></body></html>

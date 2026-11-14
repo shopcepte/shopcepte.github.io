@@ -121,7 +121,8 @@ def story(p, headline, stamp, out):
     else:
         ctext(d, W / 2, 1140, tl(p["now"]), f_new, GREEN)
         ctext(d, W / 2, 1385, "Son 30 günün en düşük fiyatı!", F("Bold", 52), WHITE)
-    d.rounded_rectangle((200, 1520, W - 200, 1680), 40, outline=WHITE, width=4)
-    ctext(d, W / 2, 1565, "LİNK BURADA", F("Bold", 54), WHITE)
+    d.rounded_rectangle((170, 1520, W - 170, 1680), 80, fill=NAVY)
+    ctext(d, W / 2, 1535, "LİNK PROFİLDE", F("Bold", 54), WHITE)
+    ctext(d, W / 2, 1612, "@shopcepte  >  profildeki bağlantı", F("Medium", 30), PINK_L)
     ctext(d, W / 2, 1780, stamp, F("Regular", 28), PINK_L)
     c.save(out)
