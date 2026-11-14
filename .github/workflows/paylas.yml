@@ -1,0 +1,40 @@
+name: Instagram'a paylas
+
+on:
+  push:
+    branches: [main]
+    paths: ["kuyruk/**"]
+  workflow_dispatch:
+    inputs:
+      kuru:
+        description: "Sadece baglantiyi kontrol et, paylasma"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paylas
+  cancel-in-progress: false
+
+jobs:
+  paylas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Paylas
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          KURU_CALISMA: ${{ inputs.kuru && '1' || '0' }}
+        run: python paylas.py
+      - name: Sonucu kaydet
+        if: always()
+        run: |
+          git config user.name "shopcepte-bot"
+          git config user.email "shopcepte-bot@users.noreply.github.com"
+          git add -A kuyruk
+          git diff --cached --quiet || (git commit -m "Paylasim sonucu [skip ci]" && git push)
