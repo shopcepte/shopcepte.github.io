@@ -90,7 +90,7 @@ def post(products, title, subtitle, date, out):
         d.text((x + 26, y + 390), tl(p["now"]), font=F("Bold", 44), fill=GREEN)
     d = ImageDraw.Draw(c)
     d.rounded_rectangle((190, 1262, 890, 1322), 30, fill=NAVY)
-    ctext(d, W / 2, 1270, "LİNKLER HİKAYEDE VE PROFİLDE", F("Bold", 30), WHITE)
+    ctext(d, W / 2, 1270, "LİNKLER PROFİLDEKİ BAĞLANTIDA", F("Bold", 30), WHITE)
     c.save(out)
 
 def story(p, headline, stamp, out):
