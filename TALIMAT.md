@@ -22,7 +22,7 @@ Saat 21:40'tan sonraysa bugün için paket hazırlama; bitir.
 - Bir tema için 4 uygun ürün çıkmazsa o paketi atla; hiç paket çıkmazsa bildir ve bitir.
 
 ## 3. Fotoğraflar
-CORS yüzünden indirilemez. Sayfaya tam ekran beyaz bir `div` ekle, görseli `/s/<n>/1000-1000/` adresiyle 560×560 `object-fit:contain` göster, tarayıcının `zoom` ekran görüntüsünü diske kaydet (ölçek ~0.6), tüm ürünler bitince div'i kaldır. PNG'leri `tasarim/img/` altına kopyala (**bu klasörü commit etme**).
+CORS yüzünden indirilemez. Sayfaya tam ekran beyaz bir `div` ekle, görseli `/s/<n>/1000-1000/` adresiyle 560×560 `object-fit:contain` göster, tarayıcının `zoom` ekran görüntüsünü diske kaydet (ölçek 0.9; araç "görsel çok büyük" derse 0.7 ile tekrar al — 0.6'nın altı hikayede bulanık çıkıyor), tüm ürünler bitince div'i kaldır. PNG'leri `tasarim/img/` altına kopyala (**bu klasörü commit etme**).
 
 ## 4. Tasarım (`tasarim/ekip.py`, Python + Pillow, Poppins fontu)
 - `post(products, title, subtitle, date, out)` → 1080×1350 gönderi (4 ürün). `story(p, headline, stamp, out)` → 1080×1920 hikaye (tek ürün; altında "LİNK PROFİLDE" yazar).

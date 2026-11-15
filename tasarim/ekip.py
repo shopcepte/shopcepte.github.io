@@ -96,7 +96,6 @@ def post(products, title, subtitle, date, out):
 def story(p, headline, stamp, out):
     W, H = 1080, 1920
     c = bg(W, H); d = ImageDraw.Draw(c)
-    logo(d, 70, 120)
     hs = 56
     while d.textlength(headline, font=F("Bold", hs)) > 960: hs -= 4
     ctext(d, W / 2, 250, headline, F("Bold", hs), WHITE)
