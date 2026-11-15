@@ -1,4 +1,4 @@
-# shopcepte-yayin
+# shopcepte.github.io
 
 ShopCepte (@shopcepte) günlük fırsat paylaşımlarının yayın deposu.
 

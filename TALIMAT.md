@@ -38,7 +38,7 @@ Açıklama: `🔥 <BAŞLIK> | GG Ay`, boş satır, ürün başına bir satır (e
 
 ## 6. Link sayfası
 Depo kökündeki `linkler.json` dosyasını bugünün tüm paketleriyle yeniden yaz:
-`{"guncelleme": "GG Ay SS:DD", "gruplar": [{"baslik": "...", "urunler": [{"ad","eski","yeni","url"}]}]}`; `url` = `https://www.hepsiburada.com` + ürün yolu. (Sayfa: https://taylanerdincekici-ui.github.io/shopcepte-yayin/)
+`{"guncelleme": "GG Ay SS:DD", "gruplar": [{"baslik": "...", "urunler": [{"ad","eski","yeni","url"}]}]}`; `url` = `https://www.hepsiburada.com` + ürün yolu. (Sayfa: https://shopcepte.github.io/)
 
 ## 7. Gönder
 Tek commit, `git -c push.negotiate=true push origin main`. Paylaşımı depo yapar (GitHub Actions 15 dakikada bir zamanı gelen paketi paylaşır, `PAYLASILDI.json` yazar). Bekleme, kontrol etme.
