@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShopCepte | Bugünün Fırsatları</title>
+<title>ShopCepte | Kategori Kategori Fırsatlar</title>
 <meta name="description" content="ShopCepte'nin Instagram'da paylaştığı Hepsiburada fırsatlarının linkleri.">
 <style>
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:linear-gradient(#ec407a,#c2185b) fixed;color:#1e1b4b;min-height:100vh}
@@ -11,16 +11,28 @@ h2{color:#fff;font-size:15px;letter-spacing:.08em;text-transform:uppercase;margi
 a.u{display:block;background:#fff;border-radius:18px;padding:14px 16px;margin-bottom:10px;text-decoration:none;color:inherit;box-shadow:0 6px 16px #5a002855}
 a.u b{display:block;font-size:15px;margin-bottom:6px}
 .f{display:flex;align-items:baseline;gap:10px}.e{color:#82828f;text-decoration:line-through;font-size:13px}.y{color:#16a34a;font-weight:700;font-size:20px}.g{margin-left:auto;background:#1e1b4b;color:#fff;border-radius:999px;padding:5px 12px;font-size:12px;font-weight:600}
+a.l{display:flex;align-items:center;justify-content:space-between;background:#1e1b4b;color:#fff;border-radius:18px;padding:14px 18px;margin-bottom:10px;text-decoration:none;font-weight:700;font-size:15px;box-shadow:0 6px 16px #5a002855}
+.nav{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}.nav a{background:#ffffff33;color:#fff;border-radius:999px;padding:6px 12px;font-size:12px;text-decoration:none;font-weight:600}
+.bos{color:#ffe4ee;font-size:13px;margin:0 0 10px}
 footer{color:#ffe4ee;font-size:12px;margin-top:24px;line-height:1.5}
 </style></head><body><main>
 <h1>Shop<span>Cepte</span></h1><div class="sub" id="g">Bugünün fırsatları</div>
-<div id="l"><p style="color:#fff">Yükleniyor…</p></div>
+<nav class="nav" id="n"></nav><div id="l"><p style="color:#fff">Yükleniyor…</p></div>
 <footer>Fiyatlar paylaşım anında Hepsiburada'dan alınmıştır; sepette geçerlidir, stok ve süreyle sınırlıdır. Bu sayfadaki bağlantılar iş birliği (komisyon) bağlantısı olabilir.</footer>
 </main><script>
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-fetch('linkler.json?'+Date.now()).then(r=>r.json()).then(d=>{
- document.getElementById('g').textContent='Son güncelleme: '+(d.guncelleme||'');
- document.getElementById('l').innerHTML=(d.gruplar||[]).map(g=>'<h2>'+esc(g.baslik)+'</h2>'+(g.urunler||[]).filter(u=>/^https:\/\/www\.hepsiburada\.com\//.test(u.url)).map(u=>
- '<a class="u" href="'+esc(u.url)+'" rel="noopener"><b>'+esc(u.ad)+'</b><div class="f"><span class="e">'+esc(u.eski)+'</span><span class="y">'+esc(u.yeni)+'</span><span class="g">Ürüne git</span></div></a>').join('')).join('')||'<p style="color:#fff">Bugün için fırsat eklenmedi.</p>';
-}).catch(()=>{document.getElementById('l').innerHTML='<p style="color:#fff">Liste yüklenemedi.</p>'});
+const ok=u=>/^https:\/\/(app\.hb\.biz|www\.hepsiburada\.com|listelerim\.hepsiburada\.com)\//.test(u||'');
+const j=f=>fetch(f+'?'+Date.now()).then(r=>r.ok?r.json():{}).catch(()=>({}));
+Promise.all([j('listeler.json'),j('linkler.json')]).then(([L,d])=>{
+ document.getElementById('g').textContent=d.guncelleme?'Son güncelleme: '+d.guncelleme:'Kategorilere göre fırsatlar';
+ const kats=(L.kategoriler||[]).map(k=>({...k,urunler:[]})),by={};kats.forEach(k=>by[k.anahtar]=k);
+ (d.gruplar||[]).forEach(g=>{let k=by[g.kategori];if(!k){k={anahtar:g.kategori||g.baslik,baslik:g.baslik,link:'',urunler:[]};kats.push(k);by[k.anahtar]=k}k.urunler.push(...(g.urunler||[]))});
+ const vis=kats.filter(k=>k.urunler.length||ok(k.link)).sort((a,b)=>(b.urunler.length>0)-(a.urunler.length>0));
+ document.getElementById('n').innerHTML=vis.map(k=>'<a href="#k-'+esc(k.anahtar)+'">'+esc(k.baslik)+'</a>').join('');
+ document.getElementById('l').innerHTML=vis.map(k=>{const L=ok(k.link)?k.link:'';
+  return '<h2 id="k-'+esc(k.anahtar)+'">'+esc(k.baslik)+'</h2>'+
+  (L?'<a class="l" href="'+esc(L)+'" rel="noopener">Tüm '+esc(k.baslik)+' listesi <span>→</span></a>':'')+
+  (k.urunler.filter(u=>ok(L||u.url)).map(u=>'<a class="u" href="'+esc(L||u.url)+'" rel="noopener"><b>'+esc(u.ad)+'</b><div class="f"><span class="e">'+esc(u.eski)+'</span><span class="y">'+esc(u.yeni)+'</span><span class="g">'+(L?'Listede gör':'Ürüne git')+'</span></div></a>').join('')||'<p class="bos">Bugün bu kategoride yeni fırsat yok; listedeki ürünlere bakabilirsin.</p>')
+ }).join('')||'<p style="color:#fff">Bugün için fırsat eklenmedi.</p>';
+});
 </script></body></html>

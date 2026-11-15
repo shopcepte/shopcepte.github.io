@@ -1,0 +1,16 @@
+{
+ "not": "Kalıcı Hepsiburada listeleri (Link Gelir). Her kategori için bir liste; ekip yeni liste açınca buraya ekler. Sıra = link sayfasındaki sıra.",
+ "kategoriler": [
+  {"anahtar": "kozmetik", "baslik": "Kozmetik & Makyaj", "liste_id": "", "link": ""},
+  {"anahtar": "kisisel-bakim", "baslik": "Kişisel Bakım", "liste_id": "", "link": ""},
+  {"anahtar": "moda", "baslik": "Kadın Moda & Aksesuar", "liste_id": "", "link": ""},
+  {"anahtar": "anne-bebek", "baslik": "Anne & Bebek", "liste_id": "", "link": ""},
+  {"anahtar": "ev-tekstili", "baslik": "Ev Tekstili", "liste_id": "", "link": ""},
+  {"anahtar": "supermarket", "baslik": "Süpermarket & Temel İhtiyaç", "liste_id": "", "link": ""},
+  {"anahtar": "mutfak", "baslik": "Mutfak & Ev Gereçleri", "liste_id": "", "link": ""},
+  {"anahtar": "televizyon", "baslik": "Televizyon Fırsatları", "liste_id": "", "link": "https://app.hb.biz/90MBQyBHkIGZ"},
+  {"anahtar": "teknoloji", "baslik": "Teknoloji & Elektronik", "liste_id": "", "link": ""},
+  {"anahtar": "outdoor", "baslik": "Outdoor & Kamp", "liste_id": "", "link": ""},
+  {"anahtar": "oto-yapi", "baslik": "Oto & Yapı Market", "liste_id": "", "link": ""}
+ ]
+}
