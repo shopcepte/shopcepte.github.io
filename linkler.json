@@ -1,35 +1,185 @@
 {
- "guncelleme": "15 Kasım 20:33",
+ "guncelleme": "16 Kasım 21:15",
  "gruplar": [
   {
-   "baslik": "Televizyon Fırsatları",
+   "kategori": "kozmetik",
+   "baslik": "Kozmetik & Makyaj",
    "urunler": [
     {
-     "ad": "Grundig 75\" QLED 4K Google TV",
-     "eski": "53.999 TL",
-     "yeni": "43.199 TL",
-     "url": "https://www.hepsiburada.com/grundig-75-gq-700a-75-190-ekran-4k-ultra-hd-google-smart-qled-tv-p-HBCV0000AL7PIV"
+     "ad": "Lancôme Teint Idole Serum Kapatıcı 120N",
+     "eski": "2.650 TL",
+     "yeni": "1.699 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00005C8OED"
     },
     {
-     "ad": "Grundig 55\" QLED 4K 144 Hz Google TV",
-     "eski": "37.999 TL",
-     "yeni": "34.199 TL",
-     "url": "https://www.hepsiburada.com/grundig-55-gq-800a-55-139-ekran-uydu-alicili-4k-ultra-hd-google-smart-qled-tv-p-HBCV0000AL815M"
+     "ad": "MAC Macstack Siyah Maskara 12 ml",
+     "eski": "2.299 TL",
+     "yeni": "1.954 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV000068J1E9"
     },
     {
-     "ad": "LG OLED evo C6 55\" 4K webOS TV",
-     "eski": "87.998 TL",
-     "yeni": "79.198 TL",
-     "url": "https://www.hepsiburada.com/lg-oled55c64la-55-140-ekran-uydu-alicili-4k-ultra-hd-webos-smart-oled-evo-tv-p-HBCV0000FSG0HI"
+     "ad": "MAC M·A·Cximal Mat Ruj Velvet Teddy",
+     "eski": "",
+     "yeni": "799 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV0000699ABU"
     },
     {
-     "ad": "Axen 32\" webOS LED TV",
-     "eski": "8.420 TL",
-     "yeni": "7.999 TL",
-     "url": "https://www.hepsiburada.com/axen-ax32hmln-w02s-32-81-ekran-uydu-alicili-webos-led-tv-p-HBCV0000CMVFRW"
+     "ad": "NYX Bare With Me Kapatıcı Serum 02",
+     "eski": "",
+     "yeni": "400 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00004733T4"
+    },
+    {
+     "ad": "A'pieu Juicy Pang Water Blusher",
+     "eski": "",
+     "yeni": "281 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBV00000KW3F4"
     }
-   ],
-   "kategori": "televizyon"
+   ]
+  },
+  {
+   "kategori": "kisisel-bakim",
+   "baslik": "Kişisel Bakım",
+   "urunler": [
+    {
+     "ad": "Mineaderm H.A. Intense Hyaluronik Serum",
+     "eski": "299 TL",
+     "yeni": "229 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00002WPFC0"
+    },
+    {
+     "ad": "Bepanthol Derma Yüz Temizleme Jeli 200 ml",
+     "eski": "675 TL",
+     "yeni": "574 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00002U6WA0"
+    },
+    {
+     "ad": "Nivea Luminous630 Leke Karşıtı Set",
+     "eski": "1.450 TL",
+     "yeni": "1.232 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV0000CPWQRH"
+    },
+    {
+     "ad": "Garnier C Vitamini Süper Serum 30 ml",
+     "eski": "",
+     "yeni": "363 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00000T0KWS"
+    },
+    {
+     "ad": "Mia Klinika Siyah Nokta Bakım Seti",
+     "eski": "749 TL",
+     "yeni": "637 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00007YW9CT"
+    }
+   ]
+  },
+  {
+   "kategori": "mutfak",
+   "baslik": "Mutfak & Ev Gereçleri",
+   "urunler": [
+    {
+     "ad": "English Home Evelina 2'li Kahve Fincanı",
+     "eski": "",
+     "yeni": "610 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00007DG7A2"
+    },
+    {
+     "ad": "Tefal 1X XL 24 cm Derin Tencere",
+     "eski": "",
+     "yeni": "1.820 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00000OX214"
+    },
+    {
+     "ad": "Tefal Ingenio 6X Kısa Tencere 24 cm",
+     "eski": "",
+     "yeni": "1.766 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV000024TRYK"
+    },
+    {
+     "ad": "Lavonni Valeria 7 Parça Granit Tencere Seti",
+     "eski": "",
+     "yeni": "2.879 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV000077R188"
+    },
+    {
+     "ad": "Tefal Ingenio Excellence 12 Parça Set",
+     "eski": "",
+     "yeni": "14.799 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00003UT7GT"
+    }
+   ]
+  },
+  {
+   "kategori": "ev-tekstili",
+   "baslik": "Ev Tekstili",
+   "urunler": [
+    {
+     "ad": "Percarvin Ceyda Fırfırlı Nevresim Takımı",
+     "eski": "1.550 TL",
+     "yeni": "1.395 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV0000QDO5TO"
+    },
+    {
+     "ad": "Percarvin Nursum Güpürlü Nevresim",
+     "eski": "",
+     "yeni": "886 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV0000QKGKE6"
+    },
+    {
+     "ad": "Percarvin Çift Taraflı 6 Parça Nevresim",
+     "eski": "",
+     "yeni": "1.529 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV0000QKGO97"
+    },
+    {
+     "ad": "Yataş Hana Tek Kişilik Ranforce Nevresim",
+     "eski": "",
+     "yeni": "990 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV000021D5NS"
+    },
+    {
+     "ad": "Yataş Pamena Tek Kişilik Ranforce Nevresim",
+     "eski": "",
+     "yeni": "1.035 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00000N1IN6"
+    }
+   ]
+  },
+  {
+   "kategori": "supermarket",
+   "baslik": "Süpermarket & Temel İhtiyaç",
+   "urunler": [
+    {
+     "ad": "Bingo Akıllı Kapsül Pro Max 240 Adet",
+     "eski": "1.554 TL",
+     "yeni": "1.309 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00007IUWSF"
+    },
+    {
+     "ad": "Bingo Akıllı Kapsül Pro 320 Adet",
+     "eski": "1.831 TL",
+     "yeni": "1.558 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00007IUWSH"
+    },
+    {
+     "ad": "OMO Active Oxygen Toz Deterjan 9 kg",
+     "eski": "788 TL",
+     "yeni": "709 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV000034TSCW"
+    },
+    {
+     "ad": "My Rabbit Oksijenli Toz Leke Çıkarıcı",
+     "eski": "",
+     "yeni": "590 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00005ZAUV8"
+    },
+    {
+     "ad": "Bingo Akıllı Kapsül Pro 160 Adet",
+     "eski": "873 TL",
+     "yeni": "773 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00006UJFU4"
+    }
+   ]
   }
  ]
 }
