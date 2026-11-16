@@ -1,0 +1,13 @@
+{
+  "zaman": "2026-11-16T19:03:04Z",
+  "gonderi": "18109953344369390",
+  "hikayeler": [
+    "18416333008089897",
+    "18071238344790066",
+    "18200871559386065",
+    "17883248793546699"
+  ],
+  "hatalar": [
+    "hikaye_3.jpg: Instagram hatası 400: {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 17,993,526,780,064,829 cannot be found.\",\"fbtrace_id\":\"As14YABE1tvKpmVic4JK4qZ\"}}"
+  ]
+}
