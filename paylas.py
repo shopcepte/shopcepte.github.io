@@ -71,48 +71,73 @@ def story(folder: Path, f):
     return publish(container(image_url=raw_url(folder / f), media_type="STORIES"))
 
 
+BEKLE = os.environ.get("BEKLE") == "1"
+
+
+def kaydet(folder):
+    """Bekleme modunda her paketin sonucunu hemen depoya yazar (tekrar paylaşımı önler)."""
+    if not BEKLE:
+        return
+    import subprocess
+    for c in (["git", "add", "-A", str(folder)], ["git", "commit", "-qm", f"Paylasim sonucu {folder.name} [skip ci]"],
+              ["git", "pull", "-q", "--rebase", "origin", "main"], ["git", "push", "-q", "origin", "HEAD:main"]):
+        subprocess.run(c, check=False)
+
+
 def main():
     if not TOKEN:
         sys.exit("IG_TOKEN tanımlı değil (Settings > Secrets and variables > Actions).")
     me = call("GET", "me", fields="username,account_type")
     print("Hesap:", me.get("username"), me.get("account_type"))
     hata = False
-    for folder in sorted(Path("kuyruk").glob("*/")):
-        plan, done = folder / "paylas.json", folder / "PAYLASILDI.json"
-        if not plan.exists() or done.exists():
-            continue
-        cfg = json.loads(plan.read_text(encoding="utf-8"))
-        if cfg.get("zaman"):
-            bekle = calendar.timegm(time.strptime(cfg["zaman"], "%Y-%m-%dT%H:%M:%SZ")) - time.time()
-            if bekle > 0:
-                print(f"{folder}: zamanı gelmedi ({int(bekle // 60)} dk)"); continue
-            if bekle < -6 * 3600:
-                print(f"{folder}: 6 saatten fazla gecikmiş, fiyatlar eskimiş olabilir; paylaşılmadı")
-                if not KURU:
-                    done.write_text(json.dumps({"atlandi": "gecikme"}), encoding="utf-8")
-                continue
-        cap_file = folder / "aciklama.txt"
-        caption = cap_file.read_text(encoding="utf-8").strip() if cap_file.exists() else ""
-        eksik = [f for f in cfg.get("gonderi", []) + cfg.get("hikayeler", []) if not (folder / f).exists()]
-        if eksik:
-            print(f"{folder}: eksik dosya {eksik}, atlandı"); hata = True; continue
-        print(f"{folder}: {len(cfg.get('gonderi', []))} gönderi görseli, {len(cfg.get('hikayeler', []))} hikaye")
-        if KURU:
-            continue
-        sonuc = {"zaman": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "gonderi": None, "hikayeler": [], "hatalar": []}
-        try:
-            if cfg.get("gonderi"):
-                sonuc["gonderi"] = post(folder, cfg["gonderi"], caption)
-                print("  gönderi paylaşıldı:", sonuc["gonderi"])
-        except Exception as e:
-            sonuc["hatalar"].append(f"gonderi: {e}"); print("  HATA", e); hata = True
-        for f in cfg.get("hikayeler", []):
-            try:
-                sonuc["hikayeler"].append(story(folder, f)); print("  hikaye paylaşıldı:", f)
-            except Exception as e:
-                sonuc["hatalar"].append(f"{f}: {e}"); print("  HATA", e); hata = True
-        # Tekrar paylaşımı önlemek için sonuç her durumda yazılır.
-        done.write_text(json.dumps(sonuc, ensure_ascii=False, indent=2), encoding="utf-8")
+    bitis = time.time() + 5.5 * 3600  # GitHub iş sınırı 6 saat
+    while True:
+      sonraki = None
+      for folder in sorted(Path("kuyruk").glob("*/")):
+          plan, done = folder / "paylas.json", folder / "PAYLASILDI.json"
+          if not plan.exists() or done.exists():
+              continue
+          cfg = json.loads(plan.read_text(encoding="utf-8"))
+          if cfg.get("zaman"):
+              bekle = calendar.timegm(time.strptime(cfg["zaman"], "%Y-%m-%dT%H:%M:%SZ")) - time.time()
+              if bekle > 0:
+                  print(f"{folder}: zamanı gelmedi ({int(bekle // 60)} dk)")
+                  hedef = time.time() + bekle
+                  if sonraki is None or hedef < sonraki: sonraki = hedef
+                  continue
+              if bekle < -6 * 3600:
+                  print(f"{folder}: 6 saatten fazla gecikmiş, fiyatlar eskimiş olabilir; paylaşılmadı")
+                  if not KURU:
+                      done.write_text(json.dumps({"atlandi": "gecikme"}), encoding="utf-8")
+                  continue
+          cap_file = folder / "aciklama.txt"
+          caption = cap_file.read_text(encoding="utf-8").strip() if cap_file.exists() else ""
+          eksik = [f for f in cfg.get("gonderi", []) + cfg.get("hikayeler", []) if not (folder / f).exists()]
+          if eksik:
+              print(f"{folder}: eksik dosya {eksik}, atlandı"); hata = True; continue
+          print(f"{folder}: {len(cfg.get('gonderi', []))} gönderi görseli, {len(cfg.get('hikayeler', []))} hikaye")
+          if KURU:
+              continue
+          sonuc = {"zaman": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "gonderi": None, "hikayeler": [], "hatalar": []}
+          try:
+              if cfg.get("gonderi"):
+                  sonuc["gonderi"] = post(folder, cfg["gonderi"], caption)
+                  print("  gönderi paylaşıldı:", sonuc["gonderi"])
+          except Exception as e:
+              sonuc["hatalar"].append(f"gonderi: {e}"); print("  HATA", e); hata = True
+          for f in cfg.get("hikayeler", []):
+              try:
+                  sonuc["hikayeler"].append(story(folder, f)); print("  hikaye paylaşıldı:", f)
+              except Exception as e:
+                  sonuc["hatalar"].append(f"{f}: {e}"); print("  HATA", e); hata = True
+          # Tekrar paylaşımı önlemek için sonuç her durumda yazılır.
+          done.write_text(json.dumps(sonuc, ensure_ascii=False, indent=2), encoding="utf-8")
+          kaydet(folder)
+      if KURU or not BEKLE or sonraki is None or sonraki > bitis:
+          break
+      uyku = max(5, sonraki - time.time() + 5)
+      print(f"Sıradaki paket için {int(uyku // 60)} dk bekleniyor"); sys.stdout.flush()
+      time.sleep(uyku)
     if hata:
         sys.exit(1)
 

@@ -23,15 +23,21 @@ concurrency:
 jobs:
   paylas:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Git kimligi
+        run: |
+          git config user.name "shopcepte-bot"
+          git config user.email "shopcepte-bot@users.noreply.github.com"
       - name: Paylas
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           KURU_CALISMA: ${{ inputs.kuru && '1' || '0' }}
+          BEKLE: "1"   # zamanı gelmemiş paketleri iş içinde bekleyip sırayla paylaşır
         run: python paylas.py
       - name: Sonucu kaydet
         if: always()
@@ -39,4 +45,4 @@ jobs:
           git config user.name "shopcepte-bot"
           git config user.email "shopcepte-bot@users.noreply.github.com"
           git add -A kuyruk
-          git diff --cached --quiet || (git commit -m "Paylasim sonucu [skip ci]" && git push)
+          git diff --cached --quiet || (git commit -m "Paylasim sonucu [skip ci]" && git pull -q --rebase origin main && git push)
