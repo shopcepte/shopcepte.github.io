@@ -1,0 +1,13 @@
+{
+  "zaman": "2026-11-17T17:44:05Z",
+  "gonderi": "18016271753985429",
+  "hikayeler": [
+    "18015078290986806",
+    "17994092187081421",
+    "18062805836552731",
+    "18081902525735249"
+  ],
+  "hatalar": [
+    "hikaye_5.jpg: Instagram hatası 400: {\"error\":{\"message\":\"User is performing too many actions\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":9,\"error_subcode\":2207042,\"error_user_title\":\"Media Publish Limit Exceeded\",\"error_user_msg\":\"You reached maximum number of posts that is allowed to be published by Content Publishing API.\",\"fbtrace_id\":\"A2_EMcVMwTU0uydIvi_kwBv\"}}"
+  ]
+}
