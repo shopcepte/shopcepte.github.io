@@ -1,0 +1,13 @@
+{
+  "zaman": "2026-11-17T18:19:05Z",
+  "gonderi": null,
+  "hikayeler": [],
+  "hatalar": [
+    "gonderi: Instagram hatası 400: {\"error\":{\"message\":\"User is performing too many actions\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":9,\"error_subcode\":2207042,\"error_user_title\":\"Media Publish Limit Exceeded\",\"error_user_msg\":\"You reached maximum number of posts that is allowed to be published by Content Publishing API.\",\"fbtrace_id\":\"AY1J-DRoWb3Mroswqmb9sTy\"}}",
+    "hikaye_1.jpg: Instagram hatası 400: {\"error\":{\"message\":\"User is performing too many actions\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":9,\"error_subcode\":2207042,\"error_user_title\":\"Media Publish Limit Exceeded\",\"error_user_msg\":\"You reached maximum number of posts that is allowed to be published by Content Publishing API.\",\"fbtrace_id\":\"AwhyyKXAyvMxACYApiu1QZY\"}}",
+    "hikaye_2.jpg: Instagram hatası 400: {\"error\":{\"message\":\"User is performing too many actions\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":9,\"error_subcode\":2207042,\"error_user_title\":\"Media Publish Limit Exceeded\",\"error_user_msg\":\"You reached maximum number of posts that is allowed to be published by Content Publishing API.\",\"fbtrace_id\":\"ALGG1-_IHim_ByRygGdDoyB\"}}",
+    "hikaye_3.jpg: Instagram hatası 400: {\"error\":{\"message\":\"User is performing too many actions\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":9,\"error_subcode\":2207042,\"error_user_title\":\"Media Publish Limit Exceeded\",\"error_user_msg\":\"You reached maximum number of posts that is allowed to be published by Content Publishing API.\",\"fbtrace_id\":\"AT_ghCGE2RsnpEYy0iFzo_x\"}}",
+    "hikaye_4.jpg: Instagram hatası 400: {\"error\":{\"message\":\"User is performing too many actions\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":9,\"error_subcode\":2207042,\"error_user_title\":\"Media Publish Limit Exceeded\",\"error_user_msg\":\"You reached maximum number of posts that is allowed to be published by Content Publishing API.\",\"fbtrace_id\":\"Au07VaocxfRJaHcV2E-cBDH\"}}",
+    "hikaye_5.jpg: Instagram hatası 400: {\"error\":{\"message\":\"User is performing too many actions\",\"type\":\"OAuthException\",\"is_transient\":false,\"code\":9,\"error_subcode\":2207042,\"error_user_title\":\"Media Publish Limit Exceeded\",\"error_user_msg\":\"You reached maximum number of posts that is allowed to be published by Content Publishing API.\",\"fbtrace_id\":\"AgUEyetWZmFlKAwylCtq1kI\"}}"
+  ]
+}
