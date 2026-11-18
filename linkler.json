@@ -1,183 +1,141 @@
 {
- "guncelleme": "17 Kasım 17:50",
+ "guncelleme": "18 Kasım 21:12",
  "gruplar": [
   {
-   "kategori": "moda",
-   "baslik": "Kadın Moda & Aksesuar",
+   "kategori": "kozmetik",
+   "baslik": "Kozmetik & Makyaj",
    "urunler": [
     {
-     "ad": "Caterpillar Colorado Kadın Bot",
-     "eski": "5.499 TL",
-     "yeni": "3.272 TL",
-     "url": "https://www.hepsiburada.com/caterpillar-colorado-kadin-bot-kaucuk-dis-materyal-dolgu-topuklu-klasik-model-p-HBV000010DBOI"
-    },
-    {
-     "ad": "Harley-Davidson Nefud Kadın Bot",
-     "eski": "6.099 TL",
-     "yeni": "3.476 TL",
-     "url": "https://www.hepsiburada.com/harley-davidson-nefud-kadin-bot-siyah-deri-klasik-orta-topuklu-rahat-yuruyus-icin-tasarlandi-p-HBCV00002RMITH"
-    },
-    {
-     "ad": "Harley-Davidson Mourir Kadın Bot",
-     "eski": "6.599 TL",
-     "yeni": "3.761 TL",
-     "url": "https://www.hepsiburada.com/harley-davidson-026z100031-mourir-siyah-kadin-bot-p-HBCV00000U6HXJ"
-    },
-    {
-     "ad": "Scooter Su Geçirmez Kar Botu",
-     "eski": "2.119 TL",
-     "yeni": "1.801 TL",
-     "url": "https://www.hepsiburada.com/scooter-z5547ts-siyah-kadin-su-gecirmez-kar-botu-p-HBV00000NDQSL"
-    },
-    {
-     "ad": "Fast Step Deri Kadın Bot",
-     "eski": "3.666 TL",
-     "yeni": "2.804 TL",
-     "url": "https://www.hepsiburada.com/fast-step-kadin-klasik-bot-deri-malzeme-ile-fermuarli-orta-topuklu-901sza204-p-HBV00000LG839"
-    }
-   ]
-  },
-  {
-   "kategori": "anne-bebek",
-   "baslik": "Anne & Bebek",
-   "urunler": [
-    {
-     "ad": "Mamajoo Yenidoğan Hediye Seti",
-     "eski": "700 TL",
-     "yeni": "455 TL",
-     "url": "https://www.hepsiburada.com/mamajoo-yenidogan-hediye-seti-powder-green-antikolik-biberon-150-ml-ve-ortodontik-emzik-saklama-kabi-p-HBV0000048TQS"
-    },
-    {
-     "ad": "Philips Avent Natural Biberon 260 ml",
-     "eski": "618 TL",
-     "yeni": "556 TL",
-     "url": "https://www.hepsiburada.com/philips-avent-natural-pp-biberon-260-ml-1ay-mavi-scf035-17-p-AILEAKBE11769"
-    },
-    {
-     "ad": "Wee Baby Kulplu Biberon 270 ml",
-     "eski": "336 TL",
-     "yeni": "269 TL",
-     "url": "https://www.hepsiburada.com/wee-baby-klasik-kulplu-pp-biberon-270-ml-mavi-6-18-ay-p-HBV00000OWCWO"
-    },
-    {
-     "ad": "Mamajoo Gold Plus Antikolik Biberon",
-     "eski": "800 TL",
-     "yeni": "560 TL",
-     "url": "https://www.hepsiburada.com/mamajoo-gold-plus-antikolik-biberon-150-ml-0-ay-yavas-akisli-p-HBCV00007726GN"
-    },
-    {
-     "ad": "Munchkin Biberon Temizleme Fırçası",
-     "eski": "549 TL",
-     "yeni": "467 TL",
-     "url": "https://www.hepsiburada.com/munchkin-bristle-biberon-temizleme-fircasi-1-adet-yesil-renkli-sunger-uclu-aksesuar-p-HBCV00002D2INJ"
-    }
-   ]
-  },
-  {
-   "kategori": "teknoloji",
-   "baslik": "Teknoloji & Elektronik",
-   "urunler": [
-    {
-     "ad": "EarFun Air Pro 4i",
-     "eski": "2.999 TL",
-     "yeni": "1.499 TL",
-     "url": "https://www.hepsiburada.com/earfun-air-pro-4i-kulak-ici-bluetooth-kulaklik-hibrit-aktif-gurultu-engelleme-40-saat-kullanim-suresi-ip55-siyah-earfun-turkiye-garantili-p-HBCV0000CBJG8D"
-    },
-    {
-     "ad": "Anker Soundcore Liberty 5",
-     "eski": "6.299 TL",
-     "yeni": "4.449 TL",
-     "url": "https://www.hepsiburada.com/anker-soundcore-liberty-5-kulak-ici-bluetooth-kulaklik-gercek-zamanli-gurultu-engelleme-beyaz-a3957-p-HBCV000090ANVO"
-    },
-    {
-     "ad": "Huawei FreeBuds 6i",
-     "eski": "4.199 TL",
-     "yeni": "3.583 TL",
-     "url": "https://www.hepsiburada.com/huawei-freebuds-6i-beyaz-p-HBCV00006K5HM6"
-    },
-    {
-     "ad": "JBL Tune 520BT",
-     "eski": "2.385 TL",
-     "yeni": "2.146 TL",
-     "url": "https://www.hepsiburada.com/jbl-tune-520bt-multi-connect-wireless-kulaklik-siyah-p-HBCV00004D5WU0"
-    },
-    {
-     "ad": "Anker Soundcore R50i",
+     "ad": "NYX Bare With Me Kapatıcı Serum",
      "eski": "",
-     "yeni": "1.143 TL",
-     "url": "https://www.hepsiburada.com/anker-soundcore-r50i-tws-bluetooth-kablosuz-kulaklik-siyah-ios-ve-android-uyumlu-a3949-anker-turkiye-garantili-p-HBCV000049D0S5"
+     "yeni": "351 TL",
+     "url": "https://www.hepsiburada.com/nyx-professional-makeup-bare-with-me-kapatici-serum-02-light-concealer-p-HBCV00004733T4"
+    },
+    {
+     "ad": "MAC M·A·Cximal Silky Matte Ruj",
+     "eski": "",
+     "yeni": "799 TL",
+     "url": "https://www.hepsiburada.com/mac-m-a-cximal-silky-matte-lipstick-nemlendirme-etkili-yogun-renk-saglayan-ruj-velvet-teddy-p-HBCV0000699ABU"
+    },
+    {
+     "ad": "Flormar Stay Perfect Likit Kapatıcı",
+     "eski": "",
+     "yeni": "850 TL",
+     "url": "https://www.hepsiburada.com/flormar-stay-perfect-005-beige-yuksek-pigmentli-likit-kapatici-yari-mat-bitisli-uzun-sure-kalici-makyaj-8682536085526-p-HBCV00005ZL8Z6"
+    },
+    {
+     "ad": "Flormar Waterproof Eyeliner Kalem",
+     "eski": "",
+     "yeni": "190 TL",
+     "url": "https://www.hepsiburada.com/flormar-suya-dayanikli-mat-ve-yogun-pigmentli-waterproof-eyeliner-goz-kalemi-101-siyah-8690604109012-p-SGFLOR9012-"
+    },
+    {
+     "ad": "Flormar Sheer Up Nemlendirici Ruj",
+     "eski": "",
+     "yeni": "402 TL",
+     "url": "https://www.hepsiburada.com/flormar-sheer-up-yari-transparan-parlak-bitisli-nemlendirici-ruj-022-daring-whisper-p-HBCV0000889448"
     }
    ]
   },
   {
-   "kategori": "outdoor",
-   "baslik": "Outdoor & Kamp",
+   "kategori": "kisisel-bakim",
+   "baslik": "Kişisel Bakım",
    "urunler": [
     {
-     "ad": "Stanley Aerolight Transit 0,35 L",
-     "eski": "1.600 TL",
-     "yeni": "1.440 TL",
-     "url": "https://www.hepsiburada.com/stanley-the-aerolight-transit-termos-bardak-0-35-lt-p-HBCV0000DHTS9Y"
+     "ad": "Moen EMS Yüz ve Boyun Bakım Cihazı",
+     "eski": "2.290 TL",
+     "yeni": "1.557 TL",
+     "url": "https://www.hepsiburada.com/moen-yuz-ve-boyun-kirsiklik-giderici-ems-guzellik-cihazi-gidik-sarkma-kirisiklik-p-HBCV0000H3YGJK"
     },
     {
-     "ad": "Stanley IceFlow Pipetli Termos 0,89 L",
-     "eski": "1.750 TL",
-     "yeni": "1.575 TL",
-     "url": "https://www.hepsiburada.com/stanley-the-iceflow-flip-straw-pipetli-termos-0-89-l-beyaz-p-HBCV000065WH4V"
+     "ad": "Moen 16 LED Diş Beyazlatma Kiti",
+     "eski": "1.590 TL",
+     "yeni": "1.081 TL",
+     "url": "https://www.hepsiburada.com/moen-profesyonel-dis-beyazlatma-kiti-16-led-4-parca-kokusuz-evde-kolay-beyazlatma-seti-p-HBCV0000H2HXVE"
     },
     {
-     "ad": "Stanley Klasik Termos 2,3 L",
-     "eski": "2.949 TL",
-     "yeni": "2.879 TL",
-     "url": "https://www.hepsiburada.com/stanley-klasik-vakumlu-paslanmaz-celik-termos-2-3-lt-p-HBCV000039RIFJ"
+     "ad": "Bade Natural Matcha Yüz Serumu 30 ml",
+     "eski": "500 TL",
+     "yeni": "450 TL",
+     "url": "https://www.hepsiburada.com/bade-natural-matcha-antioksidan-yuz-serumu-30-ml-tum-cilt-tipleri-icin-rahatlatici-ve-nemlendirici-p-HBCV0000E4G1IY"
     },
     {
-     "ad": "Stanley Aerolight Transit 0,47 L",
-     "eski": "1.045 TL",
-     "yeni": "1.000 TL",
-     "url": "https://www.hepsiburada.com/stanley-the-aerolight-transit-termos-bardak-0-47-lt-p-HBCV00008RA1N8"
+     "ad": "Agarta Reishi Kremi 50 ml",
+     "eski": "425 TL",
+     "yeni": "382 TL",
+     "url": "https://www.hepsiburada.com/agarta-reishi-kremi-50-ml-tum-cilt-tipleri-icin-canlandirici-yenileyici-etki-p-HBCV00002BM718"
+    }
+   ]
+  },
+  {
+   "kategori": "ev-tekstili",
+   "baslik": "Ev Tekstili",
+   "urunler": [
+    {
+     "ad": "Soley Anemon Çift Kişilik Nakışlı Nevresim",
+     "eski": "3.599 TL",
+     "yeni": "2.915 TL",
+     "url": "https://www.hepsiburada.com/soley-anemon-cift-kisilik-krep-nakisli-nevresim-takimi-p-HBCV0000ENZ9M1"
     },
     {
-     "ad": "Stanley Aerolight Transit 16 oz",
-     "eski": "1.300 TL",
+     "ad": "Soley Galaxy Çift Kişilik Pamuklu Nevresim",
+     "eski": "2.899 TL",
+     "yeni": "2.348 TL",
+     "url": "https://www.hepsiburada.com/soley-galaxy-100-pamuklu-cift-kisilik-nevresim-takimi-p-HBCV00004PEW6O"
+    },
+    {
+     "ad": "Yataş Hana Tek Kişilik Nevresim Seti",
+     "eski": "",
+     "yeni": "1.200 TL",
+     "url": "https://www.hepsiburada.com/yatas-hana-tek-kisilik-ranforce-nevresim-seti-pembe-p-HBCV000021D5NS"
+    },
+    {
+     "ad": "Yataş Pamena Tek Kişilik Nevresim Seti",
+     "eski": "",
      "yeni": "1.100 TL",
-     "url": "https://www.hepsiburada.com/stanley-the-aerolight-transit-bottle-16-oz-termos-bardak-0-47-litre-lila-p-HBCV0000CONI4O"
+     "url": "https://www.hepsiburada.com/yatas-pamena-ranforce-tek-kisilik-nevresim-seti-gri-p-HBCV0000103ZTG"
+    },
+    {
+     "ad": "Yataş Taren Tek Kişilik Nevresim Takımı",
+     "eski": "",
+     "yeni": "1.350 TL",
+     "url": "https://www.hepsiburada.com/yatas-taren-ranforce-tek-kisilik-nevresim-takimi-gri-p-HBCV00000YOYFO"
     }
    ]
   },
   {
-   "kategori": "oto-yapi",
-   "baslik": "Oto & Yapı Market",
+   "kategori": "mutfak",
+   "baslik": "Mutfak & Ev Gereçleri",
    "urunler": [
     {
-     "ad": "Attlas Eco V12 Akülü Matkap",
-     "eski": "981 TL",
-     "yeni": "883 TL",
-     "url": "https://www.hepsiburada.com/attlas-eco-v12-201c-12v-2-0ah-tek-akulu-matkap-cantali-a0104102-p-HBCV0000AQQ987"
+     "ad": "Hascevher 9 Parça Saklama ve Karıştırma Seti",
+     "eski": "1.100 TL",
+     "yeni": "810 TL",
+     "url": "https://www.hepsiburada.com/hascevher-9-pcs-saklama-ve-karistirma-seti-rendeli-162024-p-HBCV00007D96AB"
     },
     {
-     "ad": "Attlas 21V Kömürsüz Darbeli Matkap",
-     "eski": "1.900 TL",
-     "yeni": "1.710 TL",
-     "url": "https://www.hepsiburada.com/attlas-atb-21-blpd-201c-21v-2-0ah-tek-akulu-komursuz-darbeli-matkap-l-boxx-cantali-8-parca-uc-seti-p-HBCV0000AQQ985"
+     "ad": "Hascevher Çelik Saklama Kabı Seti",
+     "eski": "1.125 TL",
+     "yeni": "832 TL",
+     "url": "https://www.hepsiburada.com/hascevher-saklama-kabi-seti-121620-p-HBCV0000F8BBOA"
     },
     {
-     "ad": "Attlas 21V Çift Akülü Matkap",
-     "eski": "2.249 TL",
-     "yeni": "2.024 TL",
-     "url": "https://www.hepsiburada.com/attlas-atlas-atbl-21-blpd-202-c-21v-2x2-0ah-cift-akulu-komursuz-darbeli-matkap-45-nm-tork-a0104173-p-HBCV00009O1PQM"
+     "ad": "Schafer Micro Mini Derin Tencere",
+     "eski": "",
+     "yeni": "719 TL",
+     "url": "https://www.hepsiburada.com/schafer-micro-mini-derin-tencere-celik-kaplama-gri-renkli-tekli-tencere-takimi-p-HBV00001AFR5B"
     },
     {
-     "ad": "Attlas 18V Çift Akülü Darbeli Matkap",
-     "eski": "2.297 TL",
-     "yeni": "2.067 TL",
-     "url": "https://www.hepsiburada.com/attlas-atb-18-pd-li-18v-2x1-5ah-cift-akulu-darbeli-matkap-a0104058-mandren-ozellikleri-ile-yuksek-performans-p-HBCV00000MIWSU"
+     "ad": "Taç Ultra Granit Basık Tencere 24 cm",
+     "eski": "",
+     "yeni": "1.070 TL",
+     "url": "https://www.hepsiburada.com/tac-3465-ultra-granit-basik-tencere-24-cm-granit-kaplama-isiya-dayanikli-tekli-tencere-p-HBV00000RH4NE"
     },
     {
-     "ad": "AEG BS 12 C2 Çift Akülü Matkap",
-     "eski": "7.649 TL",
-     "yeni": "6.884 TL",
-     "url": "https://www.hepsiburada.com/aeg-bs-12-c2-li-202b-12v-2x2-0ah-cift-akulu-matkap-4935448465-p-HBCV000076FJEM"
+     "ad": "Lava Döküm Yayvan Tencere 28 cm",
+     "eski": "",
+     "yeni": "2.999 TL",
+     "url": "https://www.hepsiburada.com/lava-dokum-cok-amacli-yayvan-tencere-trendy-serisi-cap-28cm-p-MTLVYST28K2R"
     }
    ]
   }
