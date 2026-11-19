@@ -4,7 +4,8 @@ Hesap: @shopcepte (Instagram). Kullanıcı tam otomatik paylaşımı onayladı: 
 Bu görev günde 3 kez tetiklenir (öğle, akşamüstü, akşam). **Günün içeriğini ilk başarılı çalışma hazırlar; sonrakiler hiçbir şey yapmadan biter.** Kullanımı (token) düşük tut: gereksiz ekran görüntüsü, tekrar okuma ve uzun açıklama yapma.
 
 ## 0. Hızlı çıkış
-Depoyu klonla (`git clone --depth 1`). Bugünün tarihiyle (İstanbul) başlayan `kuyruk/YYYY-AA-GG-*` klasörü varsa: "Bugünün içeriği hazır" de ve bitir.
+Depoyu klonla (`git clone --depth 1`). Bugünün tarihiyle (İstanbul) başlayan `kuyruk/YYYY-AA-GG-*` klasörlerini say. 5 (veya fazla) ise: "Bugünün içeriği hazır" de ve bitir. 5'ten azsa (ör. gün içinde elle paylaşım yapıldı): yalnızca eksik paketleri hazırla — bugün kullanılmamış kategorilerden, bugünkü ve son 7 günün ürünlerini tekrar etmeden, sıradaki harfle (ör. `-d`, `-e`); kalan pencerelere koy. Yeni uygun ürün bulunamazsa paylaşma, kısa not düş ve bitir. `linkler.json`'a bugünkü eski paketleri de dahil et.
+**Instagram API sınırı:** 24 saatte en fazla 50 medya (gönderi + her hikaye ayrı sayılır). `zaman` seçerken son 24 saatteki `PAYLASILDI.json` kayıtlarını say; sınırı aşacaksa paketi, en eski kaydın üzerinden 24 saat geçtiği ana (+5 dk) kaydır.
 Tarayıcıya (kullanıcının Chrome'u / yerleşik tarayıcı) ulaşılamıyorsa: hiçbir şey yapma, "bilgisayar ya da Chrome kapalıydı, bu tur atlandı" de ve bitir. Bildirim gerekmez.
 
 ## 1. Günlük hedef ve zamanlar (İstanbul saati)

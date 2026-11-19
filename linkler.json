@@ -1,141 +1,105 @@
 {
- "guncelleme": "18 Kasım 21:12",
+ "guncelleme": "19 Kasım 18:20",
  "gruplar": [
   {
-   "kategori": "kozmetik",
-   "baslik": "Kozmetik & Makyaj",
+   "kategori": "moda",
+   "baslik": "Kadın Moda & Aksesuar",
    "urunler": [
     {
-     "ad": "NYX Bare With Me Kapatıcı Serum",
-     "eski": "",
-     "yeni": "351 TL",
-     "url": "https://www.hepsiburada.com/nyx-professional-makeup-bare-with-me-kapatici-serum-02-light-concealer-p-HBCV00004733T4"
+     "ad": "Fossil Vegan Deri Portföy Çanta",
+     "eski": "1.249 TL",
+     "yeni": "837 TL",
+     "url": "https://www.hepsiburada.com/fossil-vegan-deri-el-cantasi-portfoy-canta-suya-dayanikli-orta-boy-siyah-2063-p-HBCV0000A2N80B"
     },
     {
-     "ad": "MAC M·A·Cximal Silky Matte Ruj",
-     "eski": "",
-     "yeni": "799 TL",
-     "url": "https://www.hepsiburada.com/mac-m-a-cximal-silky-matte-lipstick-nemlendirme-etkili-yogun-renk-saglayan-ruj-velvet-teddy-p-HBCV0000699ABU"
+     "ad": "Armine Noktalı Klasik Kadın Çanta",
+     "eski": "1.763 TL",
+     "yeni": "1.244 TL",
+     "url": "https://www.hepsiburada.com/armine-gri-noktali-kadin-klasik-canta-p-HBCV00005WBA64"
     },
     {
-     "ad": "Flormar Stay Perfect Likit Kapatıcı",
-     "eski": "",
-     "yeni": "850 TL",
-     "url": "https://www.hepsiburada.com/flormar-stay-perfect-005-beige-yuksek-pigmentli-likit-kapatici-yari-mat-bitisli-uzun-sure-kalici-makyaj-8682536085526-p-HBCV00005ZL8Z6"
+     "ad": "Fossil Kadın Plaj Çantası",
+     "eski": "699 TL",
+     "yeni": "524 TL",
+     "url": "https://www.hepsiburada.com/kadin-plaj-cantasi-p-HBCV00008I1WFM"
     },
     {
-     "ad": "Flormar Waterproof Eyeliner Kalem",
-     "eski": "",
-     "yeni": "190 TL",
-     "url": "https://www.hepsiburada.com/flormar-suya-dayanikli-mat-ve-yogun-pigmentli-waterproof-eyeliner-goz-kalemi-101-siyah-8690604109012-p-SGFLOR9012-"
+     "ad": "Armine Vizon Omuz & El Çantası",
+     "eski": "1.599 TL",
+     "yeni": "1.351 TL",
+     "url": "https://www.hepsiburada.com/armine-kadin-vizon-renkli-omuz-el-cantasi-suni-deri-modern-tasarim-ve-luks-detaylarla-p-HBCV0000C216YW"
     },
     {
-     "ad": "Flormar Sheer Up Nemlendirici Ruj",
-     "eski": "",
-     "yeni": "402 TL",
-     "url": "https://www.hepsiburada.com/flormar-sheer-up-yari-transparan-parlak-bitisli-nemlendirici-ruj-022-daring-whisper-p-HBCV0000889448"
-    }
-   ]
-  },
-  {
-   "kategori": "kisisel-bakim",
-   "baslik": "Kişisel Bakım",
-   "urunler": [
-    {
-     "ad": "Moen EMS Yüz ve Boyun Bakım Cihazı",
-     "eski": "2.290 TL",
-     "yeni": "1.557 TL",
-     "url": "https://www.hepsiburada.com/moen-yuz-ve-boyun-kirsiklik-giderici-ems-guzellik-cihazi-gidik-sarkma-kirisiklik-p-HBCV0000H3YGJK"
-    },
-    {
-     "ad": "Moen 16 LED Diş Beyazlatma Kiti",
-     "eski": "1.590 TL",
-     "yeni": "1.081 TL",
-     "url": "https://www.hepsiburada.com/moen-profesyonel-dis-beyazlatma-kiti-16-led-4-parca-kokusuz-evde-kolay-beyazlatma-seti-p-HBCV0000H2HXVE"
-    },
-    {
-     "ad": "Bade Natural Matcha Yüz Serumu 30 ml",
-     "eski": "500 TL",
-     "yeni": "450 TL",
-     "url": "https://www.hepsiburada.com/bade-natural-matcha-antioksidan-yuz-serumu-30-ml-tum-cilt-tipleri-icin-rahatlatici-ve-nemlendirici-p-HBCV0000E4G1IY"
-    },
-    {
-     "ad": "Agarta Reishi Kremi 50 ml",
-     "eski": "425 TL",
-     "yeni": "382 TL",
-     "url": "https://www.hepsiburada.com/agarta-reishi-kremi-50-ml-tum-cilt-tipleri-icin-canlandirici-yenileyici-etki-p-HBCV00002BM718"
-    }
-   ]
-  },
-  {
-   "kategori": "ev-tekstili",
-   "baslik": "Ev Tekstili",
-   "urunler": [
-    {
-     "ad": "Soley Anemon Çift Kişilik Nakışlı Nevresim",
-     "eski": "3.599 TL",
-     "yeni": "2.915 TL",
-     "url": "https://www.hepsiburada.com/soley-anemon-cift-kisilik-krep-nakisli-nevresim-takimi-p-HBCV0000ENZ9M1"
-    },
-    {
-     "ad": "Soley Galaxy Çift Kişilik Pamuklu Nevresim",
-     "eski": "2.899 TL",
-     "yeni": "2.348 TL",
-     "url": "https://www.hepsiburada.com/soley-galaxy-100-pamuklu-cift-kisilik-nevresim-takimi-p-HBCV00004PEW6O"
-    },
-    {
-     "ad": "Yataş Hana Tek Kişilik Nevresim Seti",
-     "eski": "",
-     "yeni": "1.200 TL",
-     "url": "https://www.hepsiburada.com/yatas-hana-tek-kisilik-ranforce-nevresim-seti-pembe-p-HBCV000021D5NS"
-    },
-    {
-     "ad": "Yataş Pamena Tek Kişilik Nevresim Seti",
-     "eski": "",
-     "yeni": "1.100 TL",
-     "url": "https://www.hepsiburada.com/yatas-pamena-ranforce-tek-kisilik-nevresim-seti-gri-p-HBCV0000103ZTG"
-    },
-    {
-     "ad": "Yataş Taren Tek Kişilik Nevresim Takımı",
-     "eski": "",
-     "yeni": "1.350 TL",
-     "url": "https://www.hepsiburada.com/yatas-taren-ranforce-tek-kisilik-nevresim-takimi-gri-p-HBCV00000YOYFO"
-    }
-   ]
-  },
-  {
-   "kategori": "mutfak",
-   "baslik": "Mutfak & Ev Gereçleri",
-   "urunler": [
-    {
-     "ad": "Hascevher 9 Parça Saklama ve Karıştırma Seti",
+     "ad": "Lucky Bees Novaya Kadın El Çantası",
      "eski": "1.100 TL",
-     "yeni": "810 TL",
-     "url": "https://www.hepsiburada.com/hascevher-9-pcs-saklama-ve-karistirma-seti-rendeli-162024-p-HBCV00007D96AB"
+     "yeni": "935 TL",
+     "url": "https://www.hepsiburada.com/lucky-bees-novaya-kadin-el-cantasi-suni-deri-su-gecirmez-krem-renkli-casual-stil-p-HBCV0000DV2VJ3"
+    }
+   ]
+  },
+  {
+   "kategori": "anne-bebek",
+   "baslik": "Anne & Bebek",
+   "urunler": [
+    {
+     "ad": "DeFacto Pamuk Kız Bebek Jean Elbise",
+     "eski": "1.300 TL",
+     "yeni": "431 TL",
+     "url": "https://www.hepsiburada.com/defacto-100-pamuk-kisa-kollu-elbise-kiz-bebek-h4410a526sm-p-HBCV0000DU2ONF"
     },
     {
-     "ad": "Hascevher Çelik Saklama Kabı Seti",
-     "eski": "1.125 TL",
-     "yeni": "832 TL",
-     "url": "https://www.hepsiburada.com/hascevher-saklama-kabi-seti-121620-p-HBCV0000F8BBOA"
+     "ad": "HelloBaby Çiçek Desenli Elbise",
+     "eski": "278 TL",
+     "yeni": "139 TL",
+     "url": "https://www.hepsiburada.com/hellobaby-basic-kiz-cicek-desenli-elbise-kiz-bebek-p-HBCV000086ZQXP"
     },
     {
-     "ad": "Schafer Micro Mini Derin Tencere",
-     "eski": "",
-     "yeni": "719 TL",
-     "url": "https://www.hepsiburada.com/schafer-micro-mini-derin-tencere-celik-kaplama-gri-renkli-tekli-tencere-takimi-p-HBV00001AFR5B"
+     "ad": "HelloBaby Basic Kız Bebek Elbise",
+     "eski": "374 TL",
+     "yeni": "187 TL",
+     "url": "https://www.hepsiburada.com/hellobaby-basic-elbise-p-HBCV00008L4MA5"
     },
     {
-     "ad": "Taç Ultra Granit Basık Tencere 24 cm",
-     "eski": "",
-     "yeni": "1.070 TL",
-     "url": "https://www.hepsiburada.com/tac-3465-ultra-granit-basik-tencere-24-cm-granit-kaplama-isiya-dayanikli-tekli-tencere-p-HBV00000RH4NE"
+     "ad": "Hamur Müslin Örtü 3'lü Set",
+     "eski": "529 TL",
+     "yeni": "476 TL",
+     "url": "https://www.hepsiburada.com/hamur-cift-katli-muslin-ortu-3-lu-set-yenidogan-bebek-battaniyesi-85x95-cm-bebek-pikesi-p-HBCV0000ERYOYC"
+    }
+   ]
+  },
+  {
+   "kategori": "supermarket",
+   "baslik": "Süpermarket & Temel İhtiyaç",
+   "urunler": [
+    {
+     "ad": "Perwoll Siyahlar Sıvı Deterjan 2,97 L",
+     "eski": "232 TL",
+     "yeni": "209 TL",
+     "url": "https://www.hepsiburada.com/perwoll-siyahlar-koyu-renkliler-hassas-bakim-sivi-camasir-deterjani-2-97l-54-yikama-pm-zyhen4407"
     },
     {
-     "ad": "Lava Döküm Yayvan Tencere 28 cm",
-     "eski": "",
-     "yeni": "2.999 TL",
-     "url": "https://www.hepsiburada.com/lava-dokum-cok-amacli-yayvan-tencere-trendy-serisi-cap-28cm-p-MTLVYST28K2R"
+     "ad": "Yumoş Extra Lilyum 1440 ml",
+     "eski": "210 TL",
+     "yeni": "189 TL",
+     "url": "https://www.hepsiburada.com/yumos-extra-konsantre-camasir-yumusatici-lilyum-1440-ml-60-yikama-pm-zyunil21127409"
+    },
+    {
+     "ad": "Domestos Çamaşır Suyu 3,24 L",
+     "eski": "243 TL",
+     "yeni": "219 TL",
+     "url": "https://www.hepsiburada.com/domestos-yogun-kivamli-camasir-suyu-cam-ferahligi-3240-ml-pm-zybicn9310854"
+    },
+    {
+     "ad": "Omo Express Fresh Ultra Beyaz 1480 ml",
+     "eski": "332 TL",
+     "yeni": "299 TL",
+     "url": "https://www.hepsiburada.com/omo-express-fresh-ultra-beyaz-sivi-camasir-deterjani-1480-ml-x1-pm-HBC00008OSZNW"
+    },
+    {
+     "ad": "Asperox Sparx Bulaşık Tableti 60'lı",
+     "eski": "343 TL",
+     "yeni": "309 TL",
+     "url": "https://www.hepsiburada.com/asperox-sparx-bulasik-makinesi-tableti-60-li-pm-HBC00007DAYT8"
     }
    ]
   }
