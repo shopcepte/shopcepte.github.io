@@ -1,16 +1,16 @@
 # ShopCepte Fırsat Ekibi — günlük çalışma talimatı
 
 Hesap: @shopcepte (Instagram). Kullanıcı tam otomatik paylaşımı onayladı: onay sorma, işi bitir, sonunda kısa Türkçe özet yaz.
-Bu görev günde 3 kez tetiklenir (öğle, akşamüstü, akşam). **Günün içeriğini ilk başarılı çalışma hazırlar; sonrakiler hiçbir şey yapmadan biter.** Kullanımı (token) düşük tut: gereksiz ekran görüntüsü, tekrar okuma ve uzun açıklama yapma.
+Bu görev günde 3 kez tetiklenir (öğle, akşamüstü, akşam). **Her çalışma yalnızca kendi payını o anki fiyatlarla hazırlar** (indirimler anlık olabilir; fiyatı çekip saatlerce bekletme). Kullanımı (token) düşük tut: gereksiz ekran görüntüsü, tekrar okuma ve uzun açıklama yapma.
 
 ## 0. Hızlı çıkış
-Depoyu klonla (`git clone --depth 1`). Bugünün tarihiyle (İstanbul) başlayan `kuyruk/YYYY-AA-GG-*` klasörlerini say. 5 (veya fazla) ise: "Bugünün içeriği hazır" de ve bitir. 5'ten azsa (ör. gün içinde elle paylaşım yapıldı): yalnızca eksik paketleri hazırla — bugün kullanılmamış kategorilerden, bugünkü ve son 7 günün ürünlerini tekrar etmeden, sıradaki harfle (ör. `-d`, `-e`); kalan pencerelere koy. Yeni uygun ürün bulunamazsa paylaşma, kısa not düş ve bitir. `linkler.json`'a bugünkü eski paketleri de dahil et.
+Depoyu klonla (`git clone --depth 1`). Bugünün tarihiyle (İstanbul) başlayan `kuyruk/YYYY-AA-GG-*` klasörlerini say. Hedef toplam: öğle çalışmasından sonra 1, akşamüstünden sonra 3, akşamdan sonra 5. Sayı bu çalışmanın hedefine ulaşmışsa: "Bu turun içeriği hazır" de ve bitir. Değilse yalnızca eksik kadar paket hazırla (önceki tur kaçtıysa onun paketleri de bu tura eklenir) — bugün kullanılmamış kategorilerden, bugünkü ve son 7 günün ürünlerini tekrar etmeden, sıradaki harfle (ör. `-d`, `-e`). Yeni uygun ürün bulunamazsa paylaşma, kısa not düş ve bitir. `linkler.json`'a bugünkü eski paketleri de dahil et.
 **Instagram API sınırı:** 24 saatte en fazla 50 medya (gönderi + her hikaye ayrı sayılır). `zaman` seçerken son 24 saatteki `PAYLASILDI.json` kayıtlarını say; sınırı aşacaksa paketi, en eski kaydın üzerinden 24 saat geçtiği ana (+5 dk) kaydır.
 Tarayıcıya (kullanıcının Chrome'u / yerleşik tarayıcı) ulaşılamıyorsa: hiçbir şey yapma, "bilgisayar ya da Chrome kapalıydı, bu tur atlandı" de ve bitir. Bildirim gerekmez.
 
 ## 1. Günlük hedef ve zamanlar (İstanbul saati)
 **Her gün 5 paket = 5 gönderi + 15–25 hikaye** (paket başı 3–5 hikaye; mümkünse 5). Pencereler: A 12:00–13:00 (1 paket) · B 17:30–19:00 (2 paket) · C 20:30–22:30 (2 paket).
-Geçmiş pencerelerin paketlerini kalan pencerelere dağıt; yine de 5 paket hazırla. Paketler arası en az 15 dk olsun. Her zaman **rastgele dakika** (yuvarlak :00/:15/:30/:45 değil; `random`), her gün farklı. Pencere başlamışsa ilk paket = şimdi + 6–25 dk.
+**Kısa aralık kuralı:** bir çalışmanın paketleri hazır olur olmaz paylaşılır: ilk paket = şimdi + 6–15 dk, sonrakiler 15–20 dk arayla (rastgele dakika; yuvarlak :00/:15/:30/:45 değil). Bir çalışmanın son paketi, fiyatların çekildiği andan en fazla ~1,5 saat sonra paylaşılmış olsun; paketleri saatlere yayma. Pencere henüz başlamadıysa ilk paket pencere başı + 0–20 dk.
 Saat 22:15'ten sonraysa bugün için paket hazırlama; bitir.
 
 ## 2. Ürün bulma (yalnızca kullanıcının tarayıcısından; çalışma ortamından hepsiburada.com engelli)

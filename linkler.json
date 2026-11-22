@@ -1,105 +1,183 @@
 {
- "guncelleme": "19 Kasım 18:20",
+ "guncelleme": "22 Kasım 15:50",
  "gruplar": [
   {
-   "kategori": "moda",
-   "baslik": "Kadın Moda & Aksesuar",
+   "kategori": "kozmetik",
+   "baslik": "Kozmetik & Makyaj",
    "urunler": [
     {
-     "ad": "Fossil Vegan Deri Portföy Çanta",
-     "eski": "1.249 TL",
-     "yeni": "837 TL",
-     "url": "https://www.hepsiburada.com/fossil-vegan-deri-el-cantasi-portfoy-canta-suya-dayanikli-orta-boy-siyah-2063-p-HBCV0000A2N80B"
+     "ad": "Mac Macstack Siyah Maskara Mega Fırça 12 ml",
+     "eski": "1.499 TL",
+     "yeni": "899 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV000068J1E9"
     },
     {
-     "ad": "Armine Noktalı Klasik Kadın Çanta",
-     "eski": "1.763 TL",
-     "yeni": "1.244 TL",
-     "url": "https://www.hepsiburada.com/armine-gri-noktali-kadin-klasik-canta-p-HBCV00005WBA64"
+     "ad": "Lancome Teint Idole Ultra Wear Kapatıcı 120N",
+     "eski": "2.650 TL",
+     "yeni": "1.699 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00005C8OED"
     },
     {
-     "ad": "Fossil Kadın Plaj Çantası",
-     "eski": "699 TL",
-     "yeni": "524 TL",
-     "url": "https://www.hepsiburada.com/kadin-plaj-cantasi-p-HBCV00008I1WFM"
+     "ad": "Lancome Lash Idôle Hacim Veren Maskara",
+     "eski": "2.650 TL",
+     "yeni": "1.799 TL",
+     "url": "https://www.hepsiburada.com/urun-pm-HBC0000700BS3"
     },
     {
-     "ad": "Armine Vizon Omuz & El Çantası",
-     "eski": "1.599 TL",
-     "yeni": "1.351 TL",
-     "url": "https://www.hepsiburada.com/armine-kadin-vizon-renkli-omuz-el-cantasi-suni-deri-modern-tasarim-ve-luks-detaylarla-p-HBCV0000C216YW"
+     "ad": "Flormar Stay Perfect Likit Kapatıcı 005",
+     "eski": "1.000 TL",
+     "yeni": "850 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00005ZL8Z6"
     },
     {
-     "ad": "Lucky Bees Novaya Kadın El Çantası",
-     "eski": "1.100 TL",
-     "yeni": "935 TL",
-     "url": "https://www.hepsiburada.com/lucky-bees-novaya-kadin-el-cantasi-suni-deri-su-gecirmez-krem-renkli-casual-stil-p-HBCV0000DV2VJ3"
+     "ad": "Flormar Makyaj Fırça Seti",
+     "eski": "735 TL",
+     "yeni": "625 TL",
+     "url": "https://www.hepsiburada.com/urun-pm-HBC00000C61SO"
     }
    ]
   },
   {
-   "kategori": "anne-bebek",
-   "baslik": "Anne & Bebek",
+   "kategori": "kisisel-bakim",
+   "baslik": "Kişisel Bakım",
    "urunler": [
     {
-     "ad": "DeFacto Pamuk Kız Bebek Jean Elbise",
-     "eski": "1.300 TL",
-     "yeni": "431 TL",
-     "url": "https://www.hepsiburada.com/defacto-100-pamuk-kisa-kollu-elbise-kiz-bebek-h4410a526sm-p-HBCV0000DU2ONF"
+     "ad": "Mad Parfüm H105 Selective 50 ml Kadın",
+     "eski": "600 TL",
+     "yeni": "300 TL",
+     "url": "https://www.hepsiburada.com/urun-pm-HBC00003L2AUQ"
     },
     {
-     "ad": "HelloBaby Çiçek Desenli Elbise",
-     "eski": "278 TL",
-     "yeni": "139 TL",
-     "url": "https://www.hepsiburada.com/hellobaby-basic-kiz-cicek-desenli-elbise-kiz-bebek-p-HBCV000086ZQXP"
+     "ad": "Bargello 384 Floral Kadın Parfüm 50 ml",
+     "eski": "600 TL",
+     "yeni": "350 TL",
+     "url": "https://www.hepsiburada.com/urun-pm-HBC00004ADQRY"
     },
     {
-     "ad": "HelloBaby Basic Kız Bebek Elbise",
-     "eski": "374 TL",
-     "yeni": "187 TL",
-     "url": "https://www.hepsiburada.com/hellobaby-basic-elbise-p-HBCV00008L4MA5"
+     "ad": "Bargello 122 Oriental Kadın Parfüm 50 ml",
+     "eski": "600 TL",
+     "yeni": "350 TL",
+     "url": "https://www.hepsiburada.com/urun-pm-HB00000ONJ6Z"
     },
     {
-     "ad": "Hamur Müslin Örtü 3'lü Set",
-     "eski": "529 TL",
-     "yeni": "476 TL",
-     "url": "https://www.hepsiburada.com/hamur-cift-katli-muslin-ortu-3-lu-set-yenidogan-bebek-battaniyesi-85x95-cm-bebek-pikesi-p-HBCV0000ERYOYC"
+     "ad": "Mad Parfüm Z101 Selective 50 ml Kadın",
+     "eski": "600 TL",
+     "yeni": "350 TL",
+     "url": "https://www.hepsiburada.com/urun-pm-HBC00003L2APW"
+    },
+    {
+     "ad": "Mad Parfüm B103 Selective 50 ml Kadın",
+     "eski": "600 TL",
+     "yeni": "430 TL",
+     "url": "https://www.hepsiburada.com/urun-pm-HBC00003L2AVQ"
     }
    ]
   },
   {
-   "kategori": "supermarket",
-   "baslik": "Süpermarket & Temel İhtiyaç",
+   "kategori": "ev-tekstili",
+   "baslik": "Ev Tekstili",
    "urunler": [
     {
-     "ad": "Perwoll Siyahlar Sıvı Deterjan 2,97 L",
-     "eski": "232 TL",
-     "yeni": "209 TL",
-     "url": "https://www.hepsiburada.com/perwoll-siyahlar-koyu-renkliler-hassas-bakim-sivi-camasir-deterjani-2-97l-54-yikama-pm-zyhen4407"
+     "ad": "Madame Coco Chapele Çift Kişilik Nevresim",
+     "eski": "1.800 TL",
+     "yeni": "1.350 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV0000HTV4JE"
     },
     {
-     "ad": "Yumoş Extra Lilyum 1440 ml",
-     "eski": "210 TL",
-     "yeni": "189 TL",
-     "url": "https://www.hepsiburada.com/yumos-extra-konsantre-camasir-yumusatici-lilyum-1440-ml-60-yikama-pm-zyunil21127409"
+     "ad": "Soley Panthera King Size Saten Nevresim",
+     "eski": "6.799 TL",
+     "yeni": "4.079 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00007DL2JV"
     },
     {
-     "ad": "Domestos Çamaşır Suyu 3,24 L",
-     "eski": "243 TL",
-     "yeni": "219 TL",
-     "url": "https://www.hepsiburada.com/domestos-yogun-kivamli-camasir-suyu-cam-ferahligi-3240-ml-pm-zybicn9310854"
+     "ad": "Yataş Hana Tek Kişilik Nevresim Seti Pembe",
+     "eski": "",
+     "yeni": "1.200 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV000021D5NS"
     },
     {
-     "ad": "Omo Express Fresh Ultra Beyaz 1480 ml",
-     "eski": "332 TL",
-     "yeni": "299 TL",
-     "url": "https://www.hepsiburada.com/omo-express-fresh-ultra-beyaz-sivi-camasir-deterjani-1480-ml-x1-pm-HBC00008OSZNW"
+     "ad": "Yataş Aden Çift Kişilik Nevresim Seti",
+     "eski": "",
+     "yeni": "1.400 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00000YOYFU"
     },
     {
-     "ad": "Asperox Sparx Bulaşık Tableti 60'lı",
-     "eski": "343 TL",
-     "yeni": "309 TL",
-     "url": "https://www.hepsiburada.com/asperox-sparx-bulasik-makinesi-tableti-60-li-pm-HBC00007DAYT8"
+     "ad": "Yataş Pamena Tek Kişilik Nevresim Seti Gri",
+     "eski": "",
+     "yeni": "1.100 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV0000103ZTG"
+    }
+   ]
+  },
+  {
+   "kategori": "teknoloji",
+   "baslik": "Teknoloji & Elektronik",
+   "urunler": [
+    {
+     "ad": "Anker Soundcore Q30 Kulak Üstü Kulaklık",
+     "eski": "5.499 TL",
+     "yeni": "3.799 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBV0000187HS6"
+    },
+    {
+     "ad": "Motorola Moto Buds 2+ Bluetooth Kulaklık",
+     "eski": "3.683 TL",
+     "yeni": "1.788 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV0000MQ0J3V"
+    },
+    {
+     "ad": "Anker Soundcore R50i TWS Kulaklık",
+     "eski": "",
+     "yeni": "1.186 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV000049D0S5"
+    },
+    {
+     "ad": "JBL Tune 520BT Kablosuz Kulaklık Mor",
+     "eski": "",
+     "yeni": "2.190 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00004D5WU1"
+    },
+    {
+     "ad": "Xiaomi Redmi Buds 6 Play TWS Kulaklık",
+     "eski": "",
+     "yeni": "785 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV000072PXK3"
+    }
+   ]
+  },
+  {
+   "kategori": "outdoor",
+   "baslik": "Outdoor & Kamp",
+   "urunler": [
+    {
+     "ad": "Stevig 2 Moods Çelik Termos 900 ml",
+     "eski": "2.000 TL",
+     "yeni": "1.615 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00009UQL51"
+    },
+    {
+     "ad": "Stanley Klasik Yemek Termosu 0,40 L",
+     "eski": "1.390 TL",
+     "yeni": "1.182 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV000065WLNM"
+    },
+    {
+     "ad": "Stanley Iceflow Pipetli Termos 0,89 L",
+     "eski": "1.800 TL",
+     "yeni": "1.530 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV000065WH4V"
+    },
+    {
+     "ad": "Stanley Aerolight Termos Bardak 0,35 L",
+     "eski": "1.050 TL",
+     "yeni": "1.000 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV00008P2330"
+    },
+    {
+     "ad": "Stanley Klasik Vakumlu Termos 2,3 L",
+     "eski": "2.589 TL",
+     "yeni": "2.450 TL",
+     "url": "https://www.hepsiburada.com/urun-p-HBCV000039RIFJ"
     }
    ]
   }
